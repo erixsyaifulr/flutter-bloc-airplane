@@ -4,14 +4,18 @@ import 'package:google_fonts/google_fonts.dart';
 class ThemeManager {
   ThemeManager._();
 
+  static const double defaultMargin = 24.0;
+  static const double defaulRadius = 17.0;
+
   static const Color primaryColor = Color(0xff5C40CC);
   static const Color blackColor = Color(0xff1F1449);
   static const Color whiteColor = Color(0xffFFFFFF);
   static const Color greyColor = Color(0xff9698A9);
   static const Color greenColor = Color(0xff0EC3AE);
   static const Color redColor = Color(0xffEB70A5);
-  static const Color backgroundColor = Color(0xffFAFAFA);
+  static const Color backgroundColor = Color.fromARGB(255, 245, 242, 242);
   static const Color inactiveColor = Color(0xffDBD7EC);
+  static const Color transparentColor = Colors.transparent;
 
   static TextStyle blackTextStyle = GoogleFonts.poppins(
     color: blackColor,
